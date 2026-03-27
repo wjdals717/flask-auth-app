@@ -1,0 +1,14 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.db
+
+# 환경 변수 (절대 업로드 금지)
+.env
+secrets.json
+
+# OS
+.DS_Store
+Thumbs.db
