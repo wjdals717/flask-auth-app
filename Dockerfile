@@ -1,5 +1,5 @@
 # 베이스 이미지 (경량 Python 슬림)
-FROM python:3.9-slim
+FROM python:3.10-slim
 
 # 작업 디렉토리 설정
 WORKDIR /app
