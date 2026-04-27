@@ -12,3 +12,13 @@ secrets.json
 # OS
 .DS_Store
 Thumbs.db
+
+# 배포 및 빌드 관련
+.dockerignore     # 도커 빌드 시 제외 파일 목록 (Git에는 올라가도 됨)
+dist/             # 배포용 패키지 폴더
+build/            # 빌드 결과물
+*.log             # 서버 로그 파일
+
+# IDE (개발 도구) 설정
+.vscode/          # VS Code 설정
+.idea/            # PyCharm 설정
